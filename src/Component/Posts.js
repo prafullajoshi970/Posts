@@ -18,7 +18,7 @@ function Posts() {
 
     useEffect(() => {
         ApiFetch();
-    }, [])
+    })
 
     console.log(data);
 
